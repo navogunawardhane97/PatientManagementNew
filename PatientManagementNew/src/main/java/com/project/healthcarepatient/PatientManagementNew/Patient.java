@@ -1,5 +1,8 @@
 package com.project.healthcarepatient.PatientManagementNew;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Patient {
 	private int pid;
 	private String nic;
